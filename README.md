@@ -18,7 +18,7 @@ java -jar .\target\benchmarks.jar
 Run with parameters to create log files that can be analyzed with JITWatch:
 
 ```
--XX:+UnlockDiagnosticVMOptions -XX:+PrintAssembly -XX:+UnlockDiagnosticVMOptions -XX:+TraceClassLoading -XX:+LogCompilation
+java -XX:+UnlockDiagnosticVMOptions -XX:+PrintAssembly -XX:+UnlockDiagnosticVMOptions -XX:+TraceClassLoading -XX:+LogCompilation   -jar .\target\benchmarks.jar
 ```
 
 ### Analysis
